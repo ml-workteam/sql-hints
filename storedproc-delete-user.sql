@@ -4,7 +4,7 @@ AS
 -- ***************************************************************************************************************************
 -- USAGE: up_DeleteUser {@ID = Number | @Email = 'email@email.com'} [, @Option = 'OptionTitle']
 -- WHERE: Number is UserID, email@email.com is user email. You can use @ID or @Email but not @ID and @Email at the same time.
---               Option is string(max 10 chars) used to track deletion initiator. 
+--               Option is string(max 10 chars) used to track deletion initiator.  
 -- ***************************************************************************************************************************
 
 -- IF ID OR EMAIL are not present,
